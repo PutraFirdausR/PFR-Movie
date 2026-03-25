@@ -1,45 +1,45 @@
 # 🎬 PFR-Movie App
 
-Selamat datang di proyek **PFR-Movie**!  
-Ini adalah aplikasi web sederhana untuk mencari data film. Aplikasi ini dibuat untuk mempraktikkan konsep **Asynchronous JavaScript** (seperti `fetch` atau `AJAX`) dengan mengambil data film secara *real-time* dari *Application Programming Interface* (API) publik.
+Welcome to the **PFR-Movie** project!  
+This is a simple web application for searching movie data. It was built to practice **Asynchronous JavaScript** concepts (such as `fetch` or `AJAX`) by retrieving movie data in *real-time* from a public *Application Programming Interface* (API).
 
-🔗 **Live Demo:** [Coba Cari Film di Sini!](https://putra-movie.vercel.app)
+🔗 **Live Demo:** [Try Searching for Movies Here!](https://putra-movie.vercel.app)
 
-## ✨ Fitur
-- **Pencarian Judul Film:** Pengguna dapat mengetikkan judul film dan aplikasi akan menampilkan hasilnya.
-- **Data Dinamis:** Data yang ditampilkan (seperti poster, tahun rilis, dll) diambil langsung dari *database* pihak ketiga (OMDB API).
-- **Ringan & Cepat:** Dibangun dengan *Vanilla JavaScript* tanpa *framework* yang berat.
+## ✨ Features
+- **Movie Title Search:** Users can type in a movie title and the application will display the results.
+- **Dynamic Data:** The displayed data (such as posters, release year, etc.) is fetched directly from a third-party database (OMDB API).
+- **Lightweight & Fast:** Built with *Vanilla JavaScript* without any heavy frameworks.
 
-## 🛠️ Teknologi yang Digunakan
-- **HTML5** (`index.html` untuk kerangka antarmuka pengguna)
-- **Vanilla JavaScript** (`script.js` untuk menangani *event listener* dan *fetching data* dari API)
-- **OMDB API** (The Open Movie Database - sebagai sumber data film)
+## 🛠️ Technologies Used
+- **HTML5** (`index.html` for the user interface skeleton)
+- **Vanilla JavaScript** (`script.js` to handle event listeners and fetching data from the API)
+- **OMDB API** (The Open Movie Database - as the movie data source)
 
-## 📂 Struktur File
-Berdasarkan repositori ini, struktur filenya sangat minimalis dan fokus pada fungsionalitas:
+## 📂 File Structure
+Based on this repository, the file structure is very minimalist and focused on functionality:
 ```text
 PFR-Movie/
-├── index.html          # Tampilan utama web dan form pencarian
-├── script.js           # Logika pengambilan data (Fetch API) dan manipulasi DOM
-└── README.md           # Dokumentasi proyek (file ini)
+├── index.html          # Main web interface and search form
+├── script.js           # Data fetching logic (Fetch API) and DOM manipulation
+└── README.md           # Project documentation (this file)
 ```
 
-## 💻 Cara Menjalankan Secara Lokal
-Jika kamu ingin menjalankan atau memodifikasi kode ini di komputermu:
+## 💻 How to Run Locally
+If you want to run or modify this code on your local machine:
 
-1. Clone repositori ini:
+1. Clone this repository:
 
 ```Bash
 git clone [https://github.com/PutraFirdausR/PFR-Movie.git](https://github.com/PutraFirdausR/PFR-Movie.git)
 ```
 
-2. Buka folder proyek:
+2. Open the project folder:
 
 ```Bash
 cd PFR-Movie
 ```
 
-3. Jalankan Aplikasi:
-Cukup klik dua kali pada file index.html untuk membukanya di browser.
+3. Run the Application:
+   Simply double-click the index.html file to open it in your browser.
 
-⚠️ Catatan API Key: > Proyek ini menggunakan OMDB API. Jika kamu ingin mengembangkannya lebih lanjut, kamu mungkin perlu mendaftar di omdbapi.com untuk mendapatkan API Key milikmu sendiri dan memasukkannya ke dalam file script.js.
+⚠️ API Key Note: > This project uses the OMDB API. If you want to develop it further, you might need to register at omdbapi.com to get your own API Key and insert it into the script.js file.
