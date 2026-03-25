@@ -27,19 +27,19 @@ PFR-Movie/
 ## 💻 How to Run Locally
 If you want to run or modify this code on your local machine:
 
-1. Clone this repository:
+1. **Clone this repository:**
 
 ```Bash
 git clone [https://github.com/PutraFirdausR/PFR-Movie.git](https://github.com/PutraFirdausR/PFR-Movie.git)
 ```
 
-2. Open the project folder:
+2. **Open the project folder:**
 
 ```Bash
 cd PFR-Movie
 ```
 
-3. Run the Application:
+3. **Run the Application:**
    Simply double-click the index.html file to open it in your browser.
 
 ⚠️ API Key Note: > This project uses the OMDB API. If you want to develop it further, you might need to register at omdbapi.com to get your own API Key and insert it into the script.js file.
